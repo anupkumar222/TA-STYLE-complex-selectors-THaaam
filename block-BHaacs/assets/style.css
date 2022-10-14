@@ -74,7 +74,7 @@ header {
     background-color: #59bfc2;
     padding-bottom: 20rem;
 }
-.bar{
+.bar a{
     padding: 2rem 0;
     color: white;
 }
@@ -101,7 +101,8 @@ h1 {
     margin-left: 35rem;
 
 }
-.nav-bar li {
+.nav-bar a {
+    color: white;
     font-size: 1.2rem;
     margin-left: 2rem;
 }
@@ -139,3 +140,113 @@ h1 {
     border: 2px solid grey;
    margin-bottom: 2rem;
 }
+
+/* article section */
+.graph-article{
+     margin-top: 10rem;
+     margin-bottom: 10rem;
+}
+.text {
+    width: 48%;
+}
+h2 {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #293f7d;
+    font-weight: 800;
+}
+
+.text p {
+font-size: 1.5rem;
+font-weight: 600;
+color: gray;
+margin: 2rem 0;
+line-height: 2;
+}
+
+.learn {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    background-color: #59bfc2;
+    padding: 1rem 3rem;
+}
+
+.learn ::after {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    
+    border-right:10px solid blue; 
+  }
+
+.graph {
+    width: 48%;
+}
+
+/* table section */
+h3 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #293f7d;
+    margin-bottom: 5rem;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  
+  td, th {
+    
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .first{
+    color: white;
+    background-color: #59bfc2;
+    font-size: 2rem;
+  }
+
+  /* pricing section */
+  .text a::before {
+    width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  
+  border-right:10px solid black; 
+  z-index: 999;
+  }
+
+  .h2 {
+    width: 50%;
+    margin:  0 auto;
+  }
+  .package .icon {
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #293f7d;
+  }
+  .package .icon::after {
+    content: "Yearly";
+    font-size: 2rem;
+    margin-left: 1rem;
+    color: black;
+  }
+  .package .icon::before {
+    content: "Monthly";
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: black;
+  }
+  .basic{
+    width: 45%;
+  }
